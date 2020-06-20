@@ -117,6 +117,7 @@ services:
   kafka-broker-1:
     image: confluentinc/cp-kafka:5.0.1
     hostname: kafka-broker-1
+    restart: on-failure:3
     container_name: kafka-broker-1
     ports:
       - "19093:19093"
@@ -170,6 +171,7 @@ services:
     image: confluentinc/cp-kafka:5.0.1
     hostname: kafka-broker-2
     container_name: kafka-broker-2
+    restart: on-failure:3
     ports:
       - "29093:29093"
       - "29094:29094"
@@ -222,6 +224,7 @@ services:
     image: confluentinc/cp-kafka:5.0.1
     hostname: kafka-broker-3
     container_name: kafka-broker-3
+    restart: on-failure:3
     ports:
       - "39093:39093"
       - "39094:39094"
