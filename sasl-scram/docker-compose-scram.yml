@@ -129,7 +129,7 @@ services:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper-1:22181,zookeeper-1:32181,zookeeper-1:42181
       KAFKA_ADVERTISED_LISTENERS: SSL://kafka-broker-1:19093,SASL_SSL://kafka-broker-1:19094
-      KAFKA_SSL_KEYSTORE_FILENAME: kafka.broker-1.keystore.jks
+      KAFKA_SSL_KEYSTORE_FILENAME: kafka.broker-11.keystore.jks
       KAFKA_SSL_KEYSTORE_CREDENTIALS: broker-1_keystore_creds
       KAFKA_SSL_KEY_CREDENTIALS: broker-1_sslkey_creds
       KAFKA_SSL_TRUSTSTORE_FILENAME: kafka.broker-1.truststore.jks
@@ -181,7 +181,7 @@ services:
       KAFKA_BROKER_ID: 2
       KAFKA_ZOOKEEPER_CONNECT: zookeeper-1:22181,zookeeper-1:32181,zookeeper-1:42181
       KAFKA_ADVERTISED_LISTENERS: SSL://kafka-broker-2:29093,SASL_SSL://kafka-broker-2:29094
-      KAFKA_SSL_KEYSTORE_FILENAME: kafka.broker-2.keystore.jks
+      KAFKA_SSL_KEYSTORE_FILENAME: kafka.broker-22.keystore.jks
       KAFKA_SSL_KEYSTORE_CREDENTIALS: broker-2_keystore_creds
       KAFKA_SSL_KEY_CREDENTIALS: broker-2_sslkey_creds
       KAFKA_SSL_TRUSTSTORE_FILENAME: kafka.broker-2.truststore.jks
@@ -233,7 +233,7 @@ services:
       KAFKA_BROKER_ID: 3
       KAFKA_ZOOKEEPER_CONNECT: zookeeper-1:22181,zookeeper-1:32181,zookeeper-1:42181
       KAFKA_ADVERTISED_LISTENERS: SSL://kafka-broker-3:39093,SASL_SSL://kafka-broker-3:39094
-      KAFKA_SSL_KEYSTORE_FILENAME: kafka.broker-3.keystore.jks
+      KAFKA_SSL_KEYSTORE_FILENAME: kafka.broker-33.keystore.jks
       KAFKA_SSL_KEYSTORE_CREDENTIALS: broker-3_keystore_creds
       KAFKA_SSL_KEY_CREDENTIALS: broker-3_sslkey_creds
       KAFKA_SSL_TRUSTSTORE_FILENAME: kafka.broker-3.truststore.jks
