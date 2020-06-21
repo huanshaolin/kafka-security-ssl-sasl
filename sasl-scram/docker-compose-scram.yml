@@ -156,7 +156,7 @@ services:
       KAFKA_ZOOKEEPER_SASL_ENABLED: "true"
       KAFKA_ZOOKEEPER_SET_ACL: "true"
       KAFKA_AUTHORIZER_CLASS_NAME: kafka.security.auth.SimpleAclAuthorizer
-      KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: false
+      KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: "false"
       KAFKA_OPTS: -Dzookeeper.sasl.client=true
         -Dzookeeper.sasl.clientconfig=Client
         -Djava.security.auth.login.config=/etc/kafka/secrets/conf/kafka_server_jaas.conf
